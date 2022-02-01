@@ -1,0 +1,114 @@
+
+F8062928@NTSP0000175 MINGW64 ~/Documents/Aprendizado TI/Dio Bootcamp Sportheca/dio-desafio-github-primeiro-repositorio (main)
+$ mkdir primeiro_projeto_desafio
+
+F8062928@NTSP0000175 MINGW64 ~/Documents/Aprendizado TI/Dio Bootcamp Sportheca/dio-desafio-github-primeiro-repositorio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+F8062928@NTSP0000175 MINGW64 ~/Documents/Aprendizado TI/Dio Bootcamp Sportheca/dio-desafio-github-primeiro-repositorio (main)
+
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   primeiro_projeto_desafio/primeiro_projeto_desafio.py
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   primeiro_projeto_desafio/primeiro_projeto_desafio.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        primeiro_projeto_desafio/.idea/
+        primeiro_projeto_desafio/main.py
+
+
+F8062928@NTSP0000175 MINGW64 ~/Documents/Aprendizado TI/Dio Bootcamp Sportheca/dio-desafio-github-primeiro-repositorio (main)
+$
+
+$ git add .
+warning: LF will be replaced by CRLF in primeiro_projeto_desafio/.idea/inspectionProfiles/profiles_settings.xml.
+The file will have its original line endings in your working directory
+
+F8062928@NTSP0000175 MINGW64 ~/Documents/Aprendizado TI/Dio Bootcamp Sportheca/dio-desafio-github-primeiro-repositorio (main)
+$
+The file will have its original line endings in your working directory
+
+F8062928@NTSP0000175 MINGW64 ~/Documents/Aprendizado TI/Dio Bootcamp Sportheca/dio-desafio-github-primeiro-repositorio (main)
+$ ^C
+
+F8062928@NTSP0000175 MINGW64 ~/Documents/Aprendizado TI/Dio Bootcamp Sportheca/dio-desafio-github-primeiro-repositorio (main)
+$ git add .
+
+F8062928@NTSP0000175 MINGW64 ~/Documents/Aprendizado TI/Dio Bootcamp Sportheca/dio-desafio-github-primeiro-repositorio (main)
+$
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   primeiro_projeto_desafio/.idea/.gitignore
+        new file:   primeiro_projeto_desafio/.idea/inspectionProfiles/profiles_settings.xml
+        new file:   primeiro_projeto_desafio/.idea/misc.xml
+        new file:   primeiro_projeto_desafio/.idea/modules.xml
+        new file:   primeiro_projeto_desafio/.idea/primeiro_projeto_desafio.iml
+        new file:   primeiro_projeto_desafio/.idea/vcs.xml
+        new file:   primeiro_projeto_desafio/main.py
+        new file:   primeiro_projeto_desafio/primeiro_projeto_desafio.py
+        new file:   primeiro_projeto_desafio/primeiro_projeto_desafio.txt
+
+
+F8062928@NTSP000017
+
+F8062928@NTSP0000175 MINGW64 ~/Documents/Aprendizado TI/Dio Bootcamp Sportheca/dio-desafio-github-primeiro-repositorio (main)
+$ ^C
+
+F8062928@NTSP0000175 MINGW64 ~/Documents/Aprendizado TI/Dio Bootcamp Sportheca/dio-desafio-github-primeiro-repositorio (main)
+$ git commit -m "primeiro desafio Dio Hello World"
+[main a1766ad] primeiro desafio Dio Hello World
+ 9 files changed, 66 insertions(+)
+ create mode 100644 primeiro_projeto_desafio/.idea/.gitignore
+ create mode 100644 primeiro_projeto_desafio/.idea/inspectionProfiles/profiles_settings.xml
+ create mode 100644 primeiro_projeto_desafio/.idea/misc.xml
+ create mode 100644 primeiro_projeto_desafio/.idea/modules.xml
+ create mode 100644 primeiro_projeto_desafio/.idea/primeiro_projeto_desafio.iml
+ create mode 100644 primeiro_projeto_desafio/.idea/vcs.xml
+ create mode 100644 primeiro_projeto_desafio/main.py
+ create mode 100644 primeiro_projeto_desafio/primeiro_projeto_desafio.py
+ create mode 100644 primeiro_projeto_desafio/primeiro_projeto_desafio.txt
+
+F8062928@NTSP0000175 MINGW64 ~/Documents/Aprendizado TI/Dio Bootcamp Sportheca/dio-desafio-github-primeiro-repositorio (main)
+$
+
+F8062928@NTSP0000175 MINGW64 ~/Documents/Aprendizado TI/Dio Bootcamp Sportheca/dio-desafio-github-primeiro-repositorio (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+F8062928@NTSP0000175 MINGW64 ~/Documents/Aprendizado TI/Dio Bootcamp Sportheca/dio-desafio-github-primeiro-repositorio (main)
+$
+
+F8062928@NTSP0000175 MINGW64 ~/Documents/Aprendizado TI/Dio Bootcamp Sportheca/dio-desafio-github-primeiro-repositorio (main)
+$ git push origin main
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (13/13), 2.10 KiB | 359.00 KiB/s, done.
+Total 13 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/renatodulauzane/dio-desafio-github-primeiro-reposit-rio.git
+   d7a24b3..a1766ad  main -> main
+
+F8062928@NTSP0000175 MINGW64 ~/Documents/Aprendizado TI/Dio Bootcamp Sportheca/dio-desafio-github-primeiro-repositorio (main)
+$
