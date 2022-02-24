@@ -112,3 +112,37 @@ To https://github.com/renatodulauzane/dio-desafio-github-primeiro-reposit-rio.gi
 
 F8062928@NTSP0000175 MINGW64 ~/Documents/Aprendizado TI/Dio Bootcamp Sportheca/dio-desafio-github-primeiro-repositorio (main)
 $
+F8062928@NTSP0000175 MINGW64 ~/Documents/Aprendizado TI/Dio Bootcamp Sportheca/dio-desafio-github-primeiro-repositorio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        primeiro_projeto_desafio/comandos utilizados do primeiro desafio.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+F8062928@NTSP0000175 MINGW64 ~/Documents/Aprendizado TI/Dio Bootcamp Sportheca/dio-desafio-github-primeiro-repositorio (main)
+$ git add .
+
+F8062928@NTSP0000175 MINGW64 ~/Documents/Aprendizado TI/Dio Bootcamp Sportheca/dio-desafio-github-primeiro-repositorio (main)
+$ git commit -m "primeiro desafio Dio Hello World"
+[main b709fdb] primeiro desafio Dio Hello World
+ 1 file changed, 114 insertions(+)
+ create mode 100644 primeiro_projeto_desafio/comandos utilizados do primeiro desafio.txt
+
+F8062928@NTSP0000175 MINGW64 ~/Documents/Aprendizado TI/Dio Bootcamp Sportheca/dio-desafio-github-primeiro-repositorio (main)
+$ git push origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.27 KiB | 1.27 MiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/renatodulauzane/dio-desafio-github-primeiro-reposit-rio.git
+   a1766ad..b709fdb  main -> main
+
+F8062928@NTSP0000175 MINGW64 ~/Documents/Aprendizado TI/Dio Bootcamp Sportheca/dio-desafio-github-primeiro-repositorio (main)
+$
